@@ -1,0 +1,18 @@
+# Nested folder
+npm create vite@latest my-app -- --template react
+
+#Directly in the folder root
+npm create vite@latest . -- --template react
+
+
+#Expoting compononets
+- Default Export: There can only be one Default per file
+==== Sytax =====
+(a) export Default compononetName (at the end of the file)
+(b) export Default function cp() {}
+
+
+- Named Export: There can be multiple named export
+==== Sytax =====
+(a) export (compononetName) (at the end of the file)
+(b) export function compononetName() {}
