@@ -16,3 +16,14 @@ npm create vite@latest . -- --template react
 ==== Sytax =====
 (a) export (compononetName) (at the end of the file)
 (b) export function compononetName() {}
+
+
+## Syntax for import
+(a) Using default exportimport ComponentName from <location>
+
+(b) Using Named Export
+import (ComponentName) from <location>
+
+# JSX stands for JavaScript XML
+
+# XML stands for extensible markup language

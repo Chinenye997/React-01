@@ -1,21 +1,9 @@
-/*function Welcome() {
+import "../styles/Welcome.css";
+
+
+function Welcome() {
     return(
-        <div>
-            <h1>Welcome to React</h1>
-
-
-            <p>
-                A JavaScript Library for building user interfaces.
-            </p>
-        </div>
-    )
-}*/
-
-
-
-const Welcome = () => {
-    return(
-        <div>
+        <div className="Welcome">
             <h1>Welcome to React</h1>
 
 
@@ -25,3 +13,5 @@ const Welcome = () => {
         </div>
     )
 }
+
+export default Welcome;
