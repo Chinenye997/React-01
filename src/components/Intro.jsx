@@ -1,23 +1,20 @@
 
- function sayHey(fn, In) {
-   return `Welcome ${fn} ${In} to React class`;
- }
-
 function Intro() {
-  const firstName = "John";
-  const lastName = "Don";
+  const userName = "John Don";
   const age = 29;
+  const skills = ["HTML", "CSS", "REACT"]
 
   return (
-  <div className="text-4xl font-bold">
-    <h2>Introduction</h2>
+  <div className="bg-amber-200 border border-black/30 py-10 px-6 m-8 w-fit">
+    
+    <h2 className="font-bold text-4xl">{userName}</h2>
 
     <p>
-      {firstName} {lastName}
+      I am {age} years old
+    </p>
 
-      <span>{age}</span>
-      
-      <p> {sayHey(firstName, lastName)} </p>
+    <p>
+      I have skills in {skills.join(", ")}
     </p>
   </div>
 )

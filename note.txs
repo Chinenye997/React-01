@@ -27,3 +27,6 @@ import (ComponentName) from <location>
 # JSX stands for JavaScript XML
 
 # XML stands for extensible markup language
+
+
+## utils folder - It is a folder that for helper functions,or things that can help you do one or two thins
