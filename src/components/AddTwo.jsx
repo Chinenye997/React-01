@@ -1,5 +1,6 @@
+import { addTwoNumbers } from "../utils/addTwo";
+
 function AddTwo(){
-  const addTwoNumbers = (a, b) => a + b;
   return(
     <div>
       <h2>Adding Two Numbers</h2>

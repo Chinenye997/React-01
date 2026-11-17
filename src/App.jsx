@@ -7,6 +7,8 @@ import Card from "./components/Card"
 import Banner from "./components/Banner"
 import Intro from "./components/intro"
 import AddTwo from "./components/AddTwo"
+import TaskList from "./components/TaskList"
+import ItemCard from "./components/ItemCard"
 function App() {
 
   return (
@@ -20,6 +22,8 @@ function App() {
       <Banner />
       <Intro />
       <AddTwo />
+      <TaskList />
+      <ItemCard />
     </>
   )
 }
