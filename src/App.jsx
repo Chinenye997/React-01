@@ -8,7 +8,12 @@ import Banner from "./components/Banner"
 import Intro from "./components/intro"
 import AddTwo from "./components/AddTwo"
 import TaskList from "./components/TaskList"
-import ItemCard from "./components/ItemCard"
+
+import ProductList from "./components/ProductList"
+import StudentList from "./components/StudentList"
+
+// import ItemCard from "./components/ItemCard"
+// import Welcomemessage from "./components/WelcomeMessage"
 function App() {
 
   return (
@@ -22,8 +27,18 @@ function App() {
       <Banner />
       <Intro />
       <AddTwo />
+      <div className="flex flex-col items-center w-full">
+        <h2 className="font-bold text-5xl">Our Products</h2>
+        <ProductList />
+      </div>
+      
+      <div className="flex flex-col items-center w-full">
+        <h2 className="font-bold text-5xl gap-4">Student Card</h2>
+        <StudentList />
+      </div>
       <TaskList />
-      <ItemCard />
+      {/* <ItemCard />
+      <Welcomemessage /> */}
     </>
   )
 }
