@@ -16,17 +16,17 @@ const courses = [
 
   {
     id: 2,
-    title: "Frontend",
+    title: "Backend",
     Icon: Server,
     price: "$100"
   },
 
   {
     id: 3,
-    title: "Frontend",
+    title: "Database Management",
     Icon: Database,
     price: "$100"
-  }
+  },
 ];
 
 export default courses;

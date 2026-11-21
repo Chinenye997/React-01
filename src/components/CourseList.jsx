@@ -13,6 +13,8 @@ function CourseList() {
           title={course.title}
           Icon={course.Icon}
           price={course.price}
+
+         // {...course} // You can call it this way called spreading it.
           />
         ))
       }

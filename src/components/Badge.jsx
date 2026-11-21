@@ -1,4 +1,4 @@
-function Badge({priority}) {
+function Badge({priority, children}) {
   let styles;
   switch(priority) {
     case "high":
@@ -12,8 +12,10 @@ function Badge({priority}) {
       break;  
   }
   return(
-    <span className={`${styles} px-2 rounded-xl tex-xs $`}>
-
-    </span>
+     <span className={`${styles} py-8.6 px-2 rounded-xl text-xs`}>
+          {children}
+        </span>
   )
 }
+
+export default Badge;
