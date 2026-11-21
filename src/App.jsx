@@ -11,6 +11,10 @@ import TaskList from "./components/TaskList"
 
 import ProductList from "./components/ProductList"
 import StudentList from "./components/StudentList"
+import PasswordInput from "./components/PasswordInput"
+import LightSwitch from "./components/LightSwitch"
+import Menu from "./components/Menu"
+import Header from "./components/Header"
 
 // import ItemCard from "./components/ItemCard"
 // import Welcomemessage from "./components/WelcomeMessage"
@@ -18,21 +22,25 @@ function App() {
 
   return (
     <>
+    <Menu />
+    <Header />
       <SayHello/>
       <MyFirstReactCode/>
       <ProductCard/>
+      <PasswordInput />
+      <LightSwitch />
       <Welcome/>
       <WelcomeBanner/>
       <Card />
       <Banner />
       <Intro />
       <AddTwo />
-      <div className="flex flex-col items-center w-full">
+      <div className="flex flex-col items-center w-full border">
         <h2 className="font-bold text-5xl">Our Products</h2>
         <ProductList />
       </div>
       
-      <div className="flex flex-col items-center w-full">
+      <div className="flex flex-col items-center w-full border">
         <h2 className="font-bold text-5xl gap-4">Student Card</h2>
         <StudentList />
       </div>
