@@ -16,9 +16,12 @@ import LightSwitch from "./components/LightSwitch";
 import Menu from "./components/Menu";
 import Header from "./components/Header";
 import CourseList from "./components/CourseList";
+import TransactionList from "./components/TransactionList";
 
-// import ItemCard from "./components/ItemCard"
-// import Welcomemessage from "./components/WelcomeMessage"
+import ItemCard from "./components/ItemCard";
+import Welcomemessage from "./components/WelcomeMessage";
+import ContactForm from "./components/ContactForm";
+import Counter from "./components/Counter";
 function App() {
   return (
     <>
@@ -46,8 +49,12 @@ function App() {
         <StudentList />
       </div>
       <TaskList />
-      {/* <ItemCard />
-        <Welcomemessage /> */}
+      <TransactionList />
+
+      <ItemCard />
+      <Welcomemessage />
+      <Counter />
+      <ContactForm />
     </>
   );
 }
