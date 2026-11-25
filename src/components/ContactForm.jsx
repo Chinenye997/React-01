@@ -5,11 +5,11 @@ function ContactForm(){
     console.log("Form data subitted successully")
   }
   return(
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-4 px-18">
       <h1 className="font-bold text-4xl">Contact Form</h1>
 
        
-      <form className={handleSubmit}>
+      <form onSubmit={handleSubmit}>
         <input 
                 type="text" 
                 placeholder="Enter your full name..."

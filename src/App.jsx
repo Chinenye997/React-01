@@ -22,6 +22,8 @@ import ItemCard from "./components/ItemCard";
 import Welcomemessage from "./components/WelcomeMessage";
 import ContactForm from "./components/ContactForm";
 import Counter from "./components/Counter";
+import CourseForm from "./components/CourseForm";
+
 function App() {
   return (
     <>
@@ -55,6 +57,8 @@ function App() {
       <Welcomemessage />
       <Counter />
       <ContactForm />
+      <CourseForm />
+      <LightSwitch />
     </>
   );
 }
